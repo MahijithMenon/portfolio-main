@@ -8,18 +8,18 @@ const Footer = () => {
       </div>
 
       <div className="flex gap-3">
-        <div className="social-icon">
+        <div className="social-icon" style={{cursor: 'pointer'}}  onClick={() => window.open('https://github.com/mahijithmenon', '_blank')}>
           <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
         </div>
-        <div className="social-icon">
+        {/* <div className="social-icon">
           <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
         </div>
         <div className="social-icon">
           <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
-        </div>
+        </div> */}
       </div>
 
-      <p className="text-white-500">© 2024 Mahijith K Menon. All rights reserved.</p>
+      <p className="text-white-500">© 2024 All rights reserved.</p>
     </footer>
   );
 };
